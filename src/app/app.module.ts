@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GameStartComponent } from './game-start/game-start.component';
+import { SceneDisplayComponent } from './scene-display/scene-display.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GameStartComponent,
+    SceneDisplayComponent
   ],
   imports: [
     BrowserModule
