@@ -8,9 +8,9 @@ export class GameOverService {
   constructor() { }
 
   showPlayerFate(playerFateId){
-    for (var i = 0; i <= ALBUMS.length - 1; i++) {
-      if (ALBUMS[i].id === albumId) {
-        return ALBUMS[i];
+    for (var i = 0; i <= FATES.length - 1; i++) {
+      if (FATES[i].id === playerFateId) {
+        return FATES[i];
       }
     }
 

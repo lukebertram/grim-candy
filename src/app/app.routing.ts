@@ -10,7 +10,7 @@ const appRoutes: Routes = [
     component: GameStartComponent
   },
   {
-    path: 'scene/:id',
+    path: 'scenes/:id',
     component: SceneDisplayComponent
   },
   {
